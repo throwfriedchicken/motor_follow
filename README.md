@@ -6,7 +6,13 @@ Encoder measure method is STM32 Timer encoder mode. Every timer interrupt the MC
 error = MASTER_MOTOR_OPTICAL_ENCODER_VALUE - SLAVE_MOTOR_OPTICAL_ENCODER_VALUE   
 SLAVE_MOTOR_OPTICAL_ENCODER_VALUE = SLAVE_MOTOR_OPTICAL_ENCODER_VALUE - MASTER_MOTOR_OPTICAL_ENCODER_VALUE   
 MASTER_MOTOR_OPTICAL_ENCODER_VALUE = 0  
-
+  
+  
+  
+MCU:STM32F411VET6  
+Motor:8HS12-0506D  
+Motor Driver:DRV8825  
+Encoder:HKT2204-702C1    
 All the details are in the main.c/HAL_TIM_PeriodElapsedCallback  
   
 ![image](https://github.com/throwfriedchicken/motor_follow/assets/72564911/3299ea63-da2a-4283-90ff-9748acac4407)
